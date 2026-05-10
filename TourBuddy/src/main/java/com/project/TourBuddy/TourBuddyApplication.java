@@ -1,0 +1,15 @@
+package com.project.TourBuddy;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@EnableScheduling
+@SpringBootApplication(scanBasePackages = "com.project.TourBuddy")
+public class TourBuddyApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TourBuddyApplication.class, args);
+	}
+
+}
